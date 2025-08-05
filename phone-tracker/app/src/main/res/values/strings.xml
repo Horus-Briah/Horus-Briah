@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone Tracker</string>
+    
+    <!-- Main Activity -->
+    <string name="title_main">Phone Tracker</string>
+    <string name="add_device">Add Device</string>
+    <string name="no_devices">No Devices Added</string>
+    <string name="no_devices_description">Add a device to start tracking its location</string>
+    <string name="pull_to_refresh">Pull to refresh</string>
+    
+    <!-- Add Device Activity -->
+    <string name="title_add_device">Add New Device</string>
+    <string name="hint_device_name">Device Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="btn_add_device">Add Device</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="error_phone_required">Phone number is required</string>
+    <string name="error_name_required">Device name is required</string>
+    <string name="error_invalid_phone">Invalid phone number format</string>
+    <string name="error_device_exists">Device with this phone number already exists</string>
+    <string name="success_device_added">Device added successfully</string>
+    <string name="note_companion_app">Note: The target device must have the companion app installed and location permissions granted.</string>
+    
+    <!-- Tracking Activity -->
+    <string name="title_tracking">Tracking: %1$s</string>
+    <string name="btn_navigate_google_maps">Google Maps</string>
+    <string name="btn_navigate_waze">Waze</string>
+    <string name="btn_call">Call</string>
+    <string name="btn_refresh">Refresh</string>
+    <string name="status_online">Online</string>
+    <string name="status_offline">Offline</string>
+    <string name="last_update">Last update: %1$s</string>
+    <string name="last_update_never">Last update: Never</string>
+    <string name="no_location_available">No location available</string>
+    <string name="google_maps_not_installed">Google Maps not installed</string>
+    <string name="waze_not_installed">Waze not installed</string>
+    
+    <!-- Device Item -->
+    <string name="device_name">Device Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="location_coordinates">Location coordinates</string>
+    <string name="delete_device">Delete device</string>
+    
+    <!-- Permissions -->
+    <string name="location_permission_required">Location permissions are required</string>
+    <string name="location_permission_required_sharing">Location permissions are required for sharing</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_location_tracking">Location Tracking</string>
+    <string name="notification_channel_description">Shows when location tracking is active</string>
+    <string name="notification_title_tracking">Phone Tracker Active</string>
+    <string name="notification_text_tracking">Location tracking is running</string>
+    
+    <!-- Errors -->
+    <string name="error_invalid_device">Invalid device</string>
+    <string name="error_network">Network error occurred</string>
+    <string name="error_unknown">An unknown error occurred</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="loading">Loading…</string>
+</resources>
