@@ -1,10 +1,54 @@
-- 👋 Hi, I’m @Horus-Briah
-- 👀 I’m interested in Small apps apple, Android,google and more. 
-- 🌱 I’m currently learning Python and refreshing my programming skills in Cobol, Java, C++, Visual studios and Visual Foxpro.
-- 💞️ I’m looking to collaborate on any meaniful projects
-- 📫 Reach me at horacepaisley@gmail.com
+# Phone Tracker Android App
 
-<!---
-Horus-Briah/Horus-Briah is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+A legal and privacy-compliant Android application for tracking phone locations using Google Maps or Waze integration.
+
+## ⚠️ Important Legal Notice
+
+This app is designed for **legal use only**:
+- Tracking your own devices
+- Tracking devices you own (company phones, family devices with consent)
+- Emergency situations with proper authorization
+
+**It is illegal to track someone's phone without their explicit consent.**
+
+## Features
+
+- Real-time location tracking with 5-minute updates
+- Google Maps and Waze integration
+- Phone number-based device identification
+- Secure location sharing between devices
+- Companion app for target devices
+- Simple backend server for data management
+
+## Project Structure
+
+```
+phone-tracker/
+├── app/                    # Main tracking app
+├── companion-app/          # App that runs on target devices
+├── server/                 # Backend server
+├── shared/                 # Shared utilities
+└── docs/                   # Documentation
+```
+
+## Technical Requirements
+
+- Android 6.0+ (API level 23)
+- Google Play Services
+- Internet connection
+- Location permissions
+- Target device must have companion app installed
+
+## Setup Instructions
+
+1. Install the companion app on the target device
+2. Grant location permissions
+3. Enter the target phone number in the main app
+4. Start tracking
+
+## Privacy & Security
+
+- All location data is encrypted
+- User consent is required
+- Data is stored securely
+- Automatic data deletion after specified time
