@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Location Sharing</string>
+    
+    <!-- Main Activity -->
+    <string name="title_location_sharing">Location Sharing</string>
+    <string name="subtitle_location_sharing">Share your location with trusted devices</string>
+    <string name="current_status">Current Status</string>
+    <string name="sharing_status">Sharing Status:</string>
+    <string name="last_update">Last Update:</string>
+    <string name="controls">Controls</string>
+    <string name="enable_location_sharing">Enable Location Sharing</string>
+    <string name="location_sharing_description">When enabled, your location will be shared every 5 minutes with devices that have your phone number.</string>
+    <string name="settings">Settings</string>
+    <string name="privacy">Privacy</string>
+    
+    <!-- Status Messages -->
+    <string name="status_sharing">Sharing Location</string>
+    <string name="status_not_sharing">Not Sharing</string>
+    <string name="status_never">Never</string>
+    
+    <!-- Permissions -->
+    <string name="location_permission_required">Location permissions are required for sharing</string>
+    
+    <!-- Notifications -->
+    <string name="notification_channel_location_sharing">Location Sharing</string>
+    <string name="notification_channel_description">Shows when location sharing is active</string>
+    <string name="notification_title_sharing">Location Sharing Active</string>
+    <string name="notification_text_sharing">Your location is being shared</string>
+    
+    <!-- Messages -->
+    <string name="location_sharing_started">Location sharing started</string>
+    <string name="location_sharing_stopped">Location sharing stopped</string>
+    <string name="privacy_info">Privacy information will be shown here</string>
+    
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="loading">Loading…</string>
+</resources>
